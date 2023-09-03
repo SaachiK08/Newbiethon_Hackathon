@@ -1,0 +1,139 @@
+body {
+    background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.05)),url('https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2021/03/03/download-2021-03-03t024136427-957445-1614719706.png?itok=9PJ2MvQL');
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 0%;
+    margin: 0 auto;
+    
+}
+h1{
+    color: white;
+    font-size: 100px;
+    margin-left: 20px;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.menu1{
+    display: block;
+}
+.logo{
+    height: 150px;
+    width: 300pxpx;
+    display: block;
+}
+ul{
+    display: inline-block;
+    display: inline-flex;
+}
+li {
+    display: inline-block;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+    box-shadow: 5px 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.logo2{
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+    
+   
+}
+.menu2{
+    display: block;
+   background-color: black;
+}
+.menu1{
+    padding-left: 50px;
+    margin-left: 50px;
+
+}
+.linkedin{
+    height: 20px;
+    width: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 98px;
+}
+.facebook{
+    height: 20px;
+    width: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.reddit{
+    height: 20px;
+    width: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.insta{
+    height: 20px;
+    width: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.yt{
+    height: 20px;
+    width: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+article img{
+    
+    width: 200px;
+    height: 110px;
+    vertical-align: middle;
+    
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     
+    
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    height: 80vh;
+  }
+  .row {
+    display: flex;
+    border-style: inset;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    height: 48vh;
+  }
+h3{
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+  }
+  .footer12{
+    text-align: center;
+  }
