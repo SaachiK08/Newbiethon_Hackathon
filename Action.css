@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.05)),url(https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2021/03/03/download-2021-03-03t024136427-957445-1614719706.png?itok=9PJ2MvQL);
+    color: white;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 0%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.action {
+    display: grid;
+  
+    grid-template-columns: 1fr 1fr 1fr;
+   
+   }
+   img {
+    width: 100vh;
+    height:500px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 8%
+  }
+  .written {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+   padding-right: 10px;
+
+  }
