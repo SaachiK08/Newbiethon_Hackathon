@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Migratory Bird Registration Form</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./registration.css">
+    <form></formm>
+    <h1>Migratory Bird Registration Form</h1>
+    <form></form>
+    <fieldset>
+        <legend><h2>Personal Information</h2></legend>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter Your Full Name"><br><br>
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required placeholder="Enter Your Address"><br><br>
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" required placeholder="Enter Your City"><br><br>
+
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state" required placeholder="Enter Your State"><br><br>
+
+      <label for="zipcode">Zip Code:</label>
+      <input type="text" id="zipcode" name="zipcode" required placeholder="Enter Your Zipcode"><br><br>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required placeholder="Enter Your Phone Number"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Enter Your Email Address"><br><br>
+    </fieldset>
+    <fieldset>
+     <legend><h2>Bird Information</h2></legend> 
+      <label for="species">Species of bird:</label>
+      <input type="text" id="species" name="species" required placeholder="Enter Species Of Your Bird"><br><br>
+
+      <label for="band-number">Band number:</label>
+      <input type="text" id="band-number" name="band-number" required placeholder="Enter Band Number"><br><br>
+
+      <label for="location">Location where bird was banded:</label>
+      <input type="text" id="location" name="location" required placeholder="Enter Banded Location "><br><br>
+
+      <label for="date-banded">Date bird was banded:</label>
+      <input type="date" id="date-banded" name="date-banded" required placeholder="Enter Banded Date"><br><br>
+
+      <label for="recapture-location">Location where bird was recaptured (if applicable):</label>
+      <input type="text" id="recapture-location" name="recapture-location"required placeholder="Enter Recapture Location"><br><br>
+
+      <label for="recapture-date">Date bird was recaptured (if applicable):</label>
+      <input type="date" id="recapture-date" name="recapture-date" required placeholder="Enter Recapture Date"><br><br>
+    </fieldset>
+    <fieldset>
+      <legend><h2>Additional Information</h2></legend>
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments" required placeholder="Additional Information"></textarea><br><br>
+
+      <label for="photo">Upload a photo of the bird:</label>
+      <input type="file" id="photo" name="photo"><br><br>
+
+      <label for="release-permission">Do you give permission for the bird to be released if recaptured?</label><br>
+      <input type="radio" id="release-permission-yes" name="release-permission" value="yes" required>
+      <label for="release-permission-yes">Yes</label><br><br>
+      <input type="radio" id="release-permission-no" name="release-permission" value="no" required>
+      <label for="release-permission-no">No</label><br><br>
+    </fieldset>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

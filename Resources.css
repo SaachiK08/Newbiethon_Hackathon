@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.05)),url(https://w0.peakpx.com/wallpaper/910/71/HD-wallpaper-dark-sunset-firefox-theme-beach-suinset-sunrise-waves-clouds-sky-sea.jpg);
+    color: white;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 0%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    
+}
+.constainer1 {
+    display: grid;
+  
+    grid-template-columns: 1fr 1fr ;
+    border-style: inset;
+   }
+   img {
+    width: 100vh;
+    height:50vh;
+    margin-left: 30px;
+    border-radius: 8%
+   }
+  .photo1 {
+    font-size: 15px;
+    margin-left: 20px;
+   padding-right: 10px;
+
+  }
+  a{
+   
+    color: white;
+  }
+  a:hover{
+    color: red;
+  }
+.MG{
+    margin-left: 20px;
+}
+.constainer2 {
+    display: grid;
+  
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 20px;
+   padding-top: 20px;
+   margin-right: 20px;
+   border-style: inset;
+   }
+   .photo2 {
+    font-size: 15px;
+ 
+   }
+   .img2{
+    float: right;
+    margin-top: 20px;
+   }
+form{
+    border-style: inset;
+}
+.constainer4 {
+    display: grid;
+  
+    grid-template-columns: 1fr 1fr ;
+    border-style: inset;
+   }
+   img {
+    width: 100vh;
+    height:50vh;
+    margin-left: 30px;
+   }
+  .photo1 {
+    font-size: 15px;
+    margin-left: 20px;
+   padding-right: 10px;
+
+  }
