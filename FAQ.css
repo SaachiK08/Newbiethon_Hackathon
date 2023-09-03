@@ -1,0 +1,20 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.05)),url(https://c4.wallpaperflare.com/wallpaper/982/708/19/sea-landscape-sunset-birds-wallpaper-preview.jpg);
+    background-size: cover;
+    color: white;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 0%;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+h2 {
+    color: beige;
+}
